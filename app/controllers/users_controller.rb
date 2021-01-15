@@ -13,7 +13,7 @@ class UsersController < ApplicationController
   end
 
   # GET /users/new
-  def new
+  def new    
     @user = User.new
   end
 
